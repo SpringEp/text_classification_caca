@@ -76,11 +76,13 @@ weight_factor = 5
 
 for keyword in keywords:
     position = vectorizer.vocabulary_[keyword]
-    print(position)
-    print(X[0,position])
+    print("counts")
+    print(X[0:10,position])
+    print("weighted counts")
     X[:,position] *= weight_factor
-    print(X[0,position])
-    print('---------------------------')
+    print(X[0:10,position])
+    print("----------------------------------------------------------------------")
+
 
 tfidfconverter = TfidfTransformer()
 X = tfidfconverter.fit_transform(X.toarray()).toarray()
