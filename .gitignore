@@ -1,0 +1,14 @@
+# Eclipse and Pydev project settings
+.project
+.idea/
+# Byte-compiled files
+*.py[cod]
+*$py.class
+.model/
+# Dataset files and generated assets
+data/
+*.pickle
+*.json
+*.txt
+*.csv
+model/
