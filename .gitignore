@@ -6,7 +6,7 @@
 *$py.class
 .model/
 # Dataset files and generated assets
-data/
+
 *.pickle
 *.json
 *.txt
