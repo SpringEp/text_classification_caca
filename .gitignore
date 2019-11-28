@@ -7,8 +7,4 @@
 .model/
 # Dataset files and generated assets
 
-*.pickle
-*.json
-*.txt
-*.csv
 model/
